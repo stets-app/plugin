@@ -1,0 +1,35 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "stets",
+  "version": "0.1.0",
+  "description": "A website builder without a dashboard. Your own AI builds your site.",
+  "author": { "name": "Stets", "url": "https://stets.app" },
+  "homepage": "https://stets.app",
+  "repository": "https://github.com/stets-app/plugin",
+  "license": "MIT",
+  "keywords": ["website", "website builder", "hosting", "wordpress", "mcp"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Stets",
+        "shortDescription": "Your AI builds your website",
+        "longDescription": "Stets builds and hosts websites, without a dashboard. You talk to the AI agent you already use, and the agent writes, builds and publishes your site through Stets.\n\nStart a new site, or move your WordPress site over at the same addresses. Every change becomes a new version, which you can see straight away at a preview address. Nothing goes live until you say \"publish\". Every earlier version stays: say \"go back to yesterday's version\" and it comes back as the newest version.\n\nOnce it's live, ask how the site is doing: page views per day, the most-viewed pages, the websites visitors came from and their countries. No cookies.\n\nEvery site gets the whole builder for free: previews, versions, forms, statistics and search engines.\n\nThere is no sign-up form: you sign in with Google or Microsoft the first time you connect.",
+        "developerName": "Hiwodo B.V.",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://stets.app",
+        "supportURL": "https://stets.app/help",
+        "privacyPolicyURL": "https://stets.app/privacy",
+        "termsOfServiceURL": "https://stets.app/terms",
+        "defaultPrompt": [
+          "Make me a website for my business",
+          "Move my WordPress site to Stets",
+          "Show me my sites and their previews"
+        ],
+        "brandColor": "#0c0c0c",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      }
+    }
+  }
+}

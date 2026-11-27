@@ -1,0 +1,8 @@
+{
+  "name": "stets",
+  "version": "0.1.0",
+  "description": "A website builder without a dashboard. Your own AI builds your site.",
+  "mcpServers": {
+    "stets": { "httpUrl": "https://stets.app/mcp" }
+  }
+}

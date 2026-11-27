@@ -1,0 +1,15 @@
+{
+  "name": "stets",
+  "displayName": "Stets",
+  "version": "0.1.0",
+  "description": "A website builder without a dashboard. Your own AI builds your site.",
+  "author": { "name": "Stets", "url": "https://stets.app" },
+  "homepage": "https://stets.app",
+  "repository": "https://github.com/stets-app/plugin",
+  "license": "MIT",
+  "keywords": ["website", "website builder", "hosting", "wordpress", "mcp"],
+  "icon": "./assets/icon.png",
+  "privacyPolicyUrl": "https://stets.app/privacy",
+  "termsOfServiceUrl": "https://stets.app/terms",
+  "supportUrl": "https://stets.app/help"
+}

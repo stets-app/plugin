@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "stets": { "type": "http", "url": "https://stets.app/mcp" }
+  }
+}

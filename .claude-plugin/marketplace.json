@@ -1,0 +1,15 @@
+{
+  "name": "stets",
+  "owner": {
+    "name": "Stets",
+    "url": "https://stets.app"
+  },
+  "plugins": [
+    {
+      "name": "stets",
+      "source": "./",
+      "description": "A website builder without a dashboard. Your own AI builds your site."
+    }
+  ],
+  "description": "Stets: a website builder without a dashboard. Your own AI builds your site."
+}
