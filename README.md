@@ -15,18 +15,23 @@ Checked with Stets, through to a chat that uses it:
 | App | How |
 |---|---|
 | Claude (web, desktop, phone) | Settings → Connectors → Add custom connector, URL `https://stets.app/mcp` |
-| Claude Code | `claude mcp add --transport http stets https://stets.app/mcp`, start `claude`, type `/mcp` to sign in |
+| Claude Code | `claude mcp add --transport http --scope user stets https://stets.app/mcp`, start `claude`, type `/mcp` to sign in (`--scope user`: in every folder; without it, only in the folder you run it in) |
 | ChatGPT | Plugins → + → Add custom MCP server, URL `https://stets.app/mcp` |
+
+Checked as far as the install or the sign-in; a chat through it not tried yet:
+
+| App | How |
+|---|---|
+| Claude Code, as a plugin | `claude plugin marketplace add stets-app/plugin`, then `claude plugin install stets@stets` (installs) |
+| Codex | `codex mcp add stets --url https://stets.app/mcp`, then `codex mcp login stets` (the sign-in completes) |
 
 Not tried with Stets yet (from each app's own docs):
 
 | App | How |
 |---|---|
-| Claude Code, as a plugin | `claude plugin marketplace add stets-app/plugin`, then `claude plugin install stets@stets` |
 | VS Code (Copilot) | Command Palette → MCP: Add Server → HTTP, URL `https://stets.app/mcp` |
 | Cursor | Settings → MCP → add a server with the URL `https://stets.app/mcp` |
 | Gemini CLI | `gemini extensions install https://github.com/stets-app/plugin` |
-| Codex | `codex mcp add stets --url https://stets.app/mcp`, then `codex mcp login stets` |
 | Any other app with MCP | a remote MCP server (Streamable HTTP) at `https://stets.app/mcp`, with OAuth |
 
 Step by step, with pictures: [stets.app/start](https://stets.app/start).
